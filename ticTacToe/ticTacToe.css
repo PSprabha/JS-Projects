@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.body{
+    background-color: brown; 
+}
+.contentDiv{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.emptyDiv{
+    width: 100px;
+    height: 100px;
+    padding: 35px;
+    color: rgb(88,105,25);
+}
+.heading{
+    color: rgb(88,105,25);
+    position: absolute;
+    top: 230px;
+    left: 700px;
+}
+#output{
+    padding-top: 40px;
+    padding-left: 85px;
+    color: rgb(233, 45, 45);
+}
+.img{
+    background-image: url("images/tictac.jpg");
+    /* background-repeat: no-repeat; */
+    /* object-fit: cover;  */
+    height: 729px;
+    width: 1536px;
+    position: relative;
+}
+.xDiv{
+    position: absolute;
+    top: 80px;
+    left: 450px;
+    color: rgb(88,105,25);
+    font-size: x-large;
+}
+.oDiv{
+    position: absolute;
+    top: 80px;
+    right: 380px;
+    color: rgb(88,105,25);
+    font-size: x-large;
+}
+span{
+    color: rgb(88,105,25);
+    padding-left: 10px;
+    font-size: xx-large;
+}
+.ticTacToe{
+    height: 400px;
+    width: 300px;
+    font-size: x-large;
+    position: absolute;
+    top: 320px;
+    left: 650px;
+}
+.win{
+    background-color: transparent;
+    height: 400px;
+    width: 300px;
+    /* background-image: url("images/winner.jpg"); */
+    background-repeat: no-repeat;
+    object-fit: cover;
+    transition: all 3s;
+}
+/* .display{
+    display: none;
+} */
+.victory1{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+.victory2{
+    position:absolute;
+    top: 300px;
+    right: 100px;
+}
+#restart{
+    position: absolute;
+    right: 400px;
+    padding: 5px 10px;
+    background-color:rgb(233, 45, 45) ;
+    border: none;
+    border-radius: 20px;
+    color: rgb(223,221,222);
+    display: none;
+}

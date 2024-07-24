@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="ticTacToe.css">
+    <script async src="ticTacToe.js"></script>
+
+</head>
+
+<body class="body">
+
+    <div class="img">
+
+        <div>
+            <div class="xDiv">
+                <h3>X Player : <span id="x">0</span></h3>
+            </div>
+            <div class="oDiv">
+                <h3>O Player : <span id="o">0</span></h3>
+            </div>
+        </div>
+
+        <h1 class="heading">TIC TAC TOE</h1>
+
+        <section class="ticTacToe" onclick="ticTac(event)">
+
+            <div class="contentDiv">
+                <div class="emptyDiv" id="first"></div>
+                <hr>
+                <div class="emptyDiv" id="second"></div>
+                <hr>
+                <div class="emptyDiv" id="third"></div>
+            </div>
+            <hr>
+
+            <div class="contentDiv">
+                <div class="emptyDiv" id="fourth"></div>
+                <hr>
+                <div class="emptyDiv" id="fifth"></div>
+                <hr>
+                <div class="emptyDiv" id="sixth"></div>
+            </div>
+            <hr>
+
+            <div class="contentDiv">
+                <div class="emptyDiv" id="seventh"></div>
+                <hr>
+                <div class="emptyDiv" id="eighth"></div>
+                <hr>
+                <div class="emptyDiv" id="ninth"></div>
+            </div>
+
+            <p id="output"></p>
+            <button id="restart" onclick="restart()">RESTART</button>
+
+        </section>
+
+        <div id="display">
+
+            <div class="victory1 win">
+                <img src="" alt="" id="img1">
+            </div>
+
+            <div class="victory2 win">
+                <img src="" alt="" id="img2">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
